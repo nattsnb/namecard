@@ -1,0 +1,93 @@
+.wrapper {
+    display: flex;
+}
+
+.box-foto {
+    background-image: url("photo.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.box-info {
+    width: 300px;
+}
+
+.box-name-profession {
+    background-color: rgb(213,200,200);
+    height: 149px;
+    border-radius: 0px 10px 0px 0px;
+    border: 2px solid white;
+    border-width: 0px 0px 2px 2px;
+}
+
+.box-contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(169, 143, 142);
+    height: 149px;
+    border-radius: 0px 0px 10px 0px;
+    border: 2px solid white;
+    border-width: 0px 0px 0px 2px;
+}
+
+.text-line {
+    margin: 0;
+    font-family: "Amatic SC";
+    font-size: 23px;
+}
+
+.name {
+    padding-top: 12px;
+    font-size: 25px;
+    padding-left: 17px;
+}
+
+.surname {
+    font-size: 35px;
+    padding-left: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.occupation {
+    padding-top: 4px;
+    font-size: 33px;
+    padding-left: 17px;
+}
+
+.info-line {
+    display: flex;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 7px;
+}
+
+.icon-address {
+    background-image: url("icon-address.png");
+}
+
+.icon-email {
+    background-image: url("icon-email.png");
+
+}
+
+.icon-phone {
+    background-image: url("icon-phone.png");
+}
+
+.horizontal-line {
+    border-color: black;
+    border-width: 1px;
+    margin: 0;
+    width: 245px;
+}
